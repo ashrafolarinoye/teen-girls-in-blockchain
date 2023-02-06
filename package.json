@@ -1,0 +1,17 @@
+{
+  "name": "tgib",
+  "version": "1.0.0",
+  "description": "Teen Girls in Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ashtech"
+  ],
+  "author": "Ashtech",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/space-grotesk": "^4.5.13"
+  }
+}
