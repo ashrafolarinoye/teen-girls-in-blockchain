@@ -1,4 +1,7 @@
+import "@fontsource/space-grotesk"; // Defaults to weight 400.
+
 body{
+    font-family: "Space Grotesk";
     margin: 0px;
     padding: 0px;
   }
