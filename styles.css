@@ -2,7 +2,7 @@ import "@fontsource/space-grotesk"; // Defaults to weight 400.
 
 body{
     font-family: "Space Grotesk";
-    margin-top: 0px;
+    margin: 0px;
     padding: 0px;
   }
   .nav {
