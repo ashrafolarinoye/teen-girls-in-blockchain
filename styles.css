@@ -1,13 +1,9 @@
-import "@fontsource/space-grotesk"; // Defaults to weight 400.
-
-*{
-  border: 0;
-  margin: 0;
-  padding: 0;
-  font-family: "Space Grotesk"; 
+body{
+  font-family: "Space Grotesk";
 }
 .nav {
-  margin: -10;
+  font-family: "Space Grotesk";
+  margin: -8;
   padding: 0;
   display: flex;
   background-color: #df3b56;
@@ -36,10 +32,10 @@ import "@fontsource/space-grotesk"; // Defaults to weight 400.
   background-color: #df3b56;
 }
 .nav__link a {
+  font-family: "Space Grotesk";
   color: white;
   text-decoration: none;
   display: block;
-  font-family: 'Poppins';
   text-align: center;
   padding: 20px 0 25px;
 }
@@ -55,6 +51,12 @@ import "@fontsource/space-grotesk"; // Defaults to weight 400.
 }
 
 @media screen and (min-width: 600px) {
+  body{
+    font-family: "Space Grotesk";
+  }
+  .nav a{
+    font-family: "Space Grotesk";
+  }
     .nav img{
         margin-left: 7vw;
     }
@@ -73,8 +75,19 @@ import "@fontsource/space-grotesk"; // Defaults to weight 400.
     .hamburger {
         display: none;
     }
-  }
-
+    .lefthero{
+      position: absolute;
+      width: 619px;
+      height: 174px;
+      margin-left: 7vw;
+      margin-top: -2vw;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 82px;
+    }
+}
 
 
     
