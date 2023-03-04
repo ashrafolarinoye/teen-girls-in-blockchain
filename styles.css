@@ -89,7 +89,6 @@ body{
       margin-left: 7vw;
       margin-top: 2vw;
       font-family: 'Space Grotesk';
-      font-style: normal;
       font-weight: 500;
       font-size: 64px;
       line-height: 82px;
@@ -127,6 +126,23 @@ body{
       width: 149px;
       padding: 8px 23px 8px 23px;
     }
+    .lefthero .members{
+      display: flex;
+      gap: 1vw;
+      margin-left: -3vw;
+      margin-top: 2vw;
+    }
+    .members h6{
+      margin-top: -2vh;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+    }
+    .members img{
+      width: 200px;
+      height: 60px;
+    }
     .leftbuttons img{
       margin-right: -2vw; 
       margin-bottom: -1vh;
@@ -134,9 +150,7 @@ body{
     .righthero{
       margin-top: 2vw;
     }
-    .lefthero .members{
-      display: flex;
-    }
+    
     
 }
 
