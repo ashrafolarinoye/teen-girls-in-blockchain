@@ -137,6 +137,9 @@ body{
       margin-left: -3vw;
       margin-top: 2vw;
     }
+    /*.righthero img{
+      height: 90vh;
+    }*/
     .members h6{
       margin-top: -2vh;
       font-family: 'Space Grotesk';
@@ -154,6 +157,65 @@ body{
     }
     .righthero{
       margin-top: 2vw;
+    }
+    .horizon{
+      margin-top: 8vh;
+      border-top: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+
+  <div class="col-md-12 wow fadeInUp">
+    <div class="section-heading text-center pb-65"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 text-center flex-align justify-center wow fadeInLeft">
+    <div class="work-box">
+      <img alt="Work Process" class="rotation-img" src="images/logo.png" />
+    </div>
+  </div>
+
+    .morethan{
+      width: 619px;
+      height: 174px;
+      margin-left: 7vw;
+      margin-top: 2vh;
+      font-family: 'Space Grotesk';
+      display: flex;
+      /*gap: 10vw;*/
+    }
+    .morethan h6{
+      font-size: 64px;
+      line-height: 82px;
+      font-size: 50px;
+      margin-top: 2vw;
+    }
+    .rightconts{
+      display: flex;
+      gap: 2vw;
+    }
+    .leftmorethan h5{
+      line-height: 26px;
+      font-size: normal;
+      font-weight: 500;
+      line-height: 20px;
+      margin-top: -8vw;
+    }
+    .rightmorethan{
+      margin-top: 2vw;
+    }
+
+    .rightimg{
+      text-align: center;
+      width: 57px;
+      height: 50px;
+      background: #DF3B56;
+      border-radius: 10px;
+      margin-top: 2vh;
+      margin-bottom: 10vh;
+    }
+    .rightimg img{
+      margin-top: 1vh;
     }
     
     
