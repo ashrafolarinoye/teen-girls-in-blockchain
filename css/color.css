@@ -9,12 +9,12 @@ html {
     color: #999999;
 }
 
-a,
+/*a,
 a:focus,
 a:hover,
 a.active {
     color: #111111;
-}
+}*/
 
 .btn {
     color: white;
@@ -182,7 +182,7 @@ ul.check-list li span {
     color: #fff;
 }
 
-/*----- Feature Section -----*/
+/*----- Feature Section -----
 
 .feature-title:hover {
     color: #16d5ff;
@@ -190,7 +190,7 @@ ul.check-list li span {
 
 .feature-box:hover path.hover {
     fill: #16d5ff;
-}
+}*/
 
 /*----- Timeline Section -----*/
 
@@ -351,7 +351,7 @@ ul.check-list li span {
 /*----- Feature tow -----*/
 
 .feature-des {
-    color: #999999;
+    color: #ffffff;
 }
 
 .feature-title-2,
