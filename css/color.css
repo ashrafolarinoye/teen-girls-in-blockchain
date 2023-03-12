@@ -285,7 +285,7 @@ ul.check-list li span {
 }
 
 .blog-img a:before {
-    background: rgb(0, 0, 0, 0.5);
+    background: rgb(223 59 86 / 28%);
 }
 
 .blog-date li,
