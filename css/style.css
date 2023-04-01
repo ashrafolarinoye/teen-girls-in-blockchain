@@ -2388,8 +2388,7 @@ _______________________________________________________*/
 
 footer.bg-pattern {
     background-position: center 125px;
-    background: #f2f8fe url(../images/footer-petrn.png) no-repeat bottom;
-    padding-bottom: 50px;
+    background-color: #DF3B56;
 }
 
 .footer-logo img {
@@ -2401,7 +2400,6 @@ footer.bg-pattern {
 }
 
 .footer {
-    border-bottom: 1px solid;
     padding-bottom: 50px;
 }
 
@@ -2555,4 +2553,8 @@ footer.bg-pattern {
     font-weight: 500;
     color: white;
     padding: 20px;
+}
+.footerbold{
+    font-weight: bold;
+    margin-bottom: 2vh;
 }
