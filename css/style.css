@@ -2391,16 +2391,9 @@ footer.bg-pattern {
     background-color: #DF3B56;
 }
 
-.footer-logo img {
-    transition: all 400ms ease;
-}
-
-.footer-logo img:hover {
-    opacity: 0.5;
-}
 
 .footer {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .footer-icon ul li {
@@ -2462,45 +2455,6 @@ footer.bg-pattern {
     border-bottom-right-radius: 5px;
 }
 
-.copyright {
-    padding-top: 50px;
-}
-
-.copyright p a {
-    text-decoration: underline;
-}
-
-.copyright ul {
-    text-align: right;
-}
-
-.copyright ul li {
-    display: inline-block;
-    padding: 0px 25px;
-    position: relative;
-}
-
-.copyright ul li:first-child {
-    padding-left: 0;
-}
-
-.copyright ul li:last-child {
-    padding-right: 0;
-}
-
-.copyright ul li:before {
-    content: "";
-    position: absolute;
-    top: 7px;
-    right: 0;
-    width: 2px;
-    height: 12px;
-}
-
-.copyright ul li:last-child:before {
-    width: 0;
-}
-
 /*----- Footer Section End -----*/
 
 .rightconts{
@@ -2541,7 +2495,7 @@ footer.bg-pattern {
  }
  .newsletter input{
     font-family: 'Space Grotesk';
-    margin-top: 4vh;
+    margin-top: 3vh;
     width: 50%;
     height: 45%;
     margin-right: 2vh;
@@ -2549,12 +2503,17 @@ footer.bg-pattern {
  }
 .newsletterp{
     text-align: center; 
-    margin-top: 2vh;
+    margin-top: -1vh;
     font-weight: 500;
     color: white;
     padding: 20px;
 }
 .footerbold{
+    text-align: center;
     font-weight: bold;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
+}
+.footer li{
+    text-align: center;
+    margin-bottom: 3vh;
 }
