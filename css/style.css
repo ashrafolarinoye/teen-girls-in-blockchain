@@ -478,6 +478,9 @@ header .container {
     transform: translateY(-50%);
     gap: 5vh;
 }
+.theme-switch-wrapper{
+    display: none;
+}
 
 .menu-toggle span,
 .menu-toggle span:before,
@@ -2577,5 +2580,26 @@ footer.bg-pattern {
     border-radius: 60%;
   }
   .betatest{
-    background-color: #000000;
+    margin-top: 2vh;
+    width: 140px;
+   background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 17px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .betatest:hover{
+    border: 2px solid white;
+    background-color: #DF3B56;
+    transition: 1.5s;
+   }
+  .betatest p{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+  }
+  .betatest p:hover{
+    color: #ffffff;
+    transition: 1.5s;
   }
