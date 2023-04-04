@@ -226,11 +226,10 @@
     .menu {
         display: none;
         position: fixed;
-        top: 65px;
+        top: 96px;
         left: 0;
         width: 100%;
         height: calc(100% - 65px);
-        box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 30%);
         overflow-y: auto;
     }
     header.fixed .menu {
@@ -245,7 +244,6 @@
     .menu ul li {
         display: block;
         padding: 0;
-        border-bottom: 1px solid #f2f8fe;
     }
     .opener {
         display: block;
@@ -258,7 +256,7 @@
         content: unset;
     }
     .menu ul li a {
-        padding: 8px 15px;
+        padding: 33px 15px;
         display: block;
     }
     .signin {

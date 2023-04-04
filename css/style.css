@@ -2525,6 +2525,7 @@ footer.bg-pattern {
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
+    padding: 33px;
     
     em {
       margin-left: 1px;
