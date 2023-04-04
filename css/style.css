@@ -476,6 +476,7 @@ header .container {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    gap: 5vh;
 }
 
 .menu-toggle span,
@@ -2574,4 +2575,7 @@ footer.bg-pattern {
   
   .slider.round:before {
     border-radius: 60%;
+  }
+  .betatest{
+    background-color: #000000;
   }
