@@ -2604,3 +2604,6 @@ footer.bg-pattern {
     color: #ffffff;
     transition: 1.5s;
   }
+  .socials i{
+    width: 50px;
+  }
