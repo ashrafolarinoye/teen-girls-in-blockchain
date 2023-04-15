@@ -2485,6 +2485,16 @@ footer.bg-pattern {
   .socials img{
     width: 2%;
   }
+  .socials a{
+    gap: 4vw;
+    text-decoration: none; 
+    color: #000;
+  }
+  .socials a:hover{
+    color: #DF3B56;
+    padding: 20px;
+    transition: 0.5s;
+  }
   .newsletterbox{
     height: 150px;
   }
