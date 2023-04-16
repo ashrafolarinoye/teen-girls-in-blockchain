@@ -2483,14 +2483,15 @@ footer.bg-pattern {
     max-width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     text-align: center;
+    gap: 10px;
     padding: 40px;
-    
+    display: inline-flex;
 }
   .socials img{
     width: 2%;
   }
-  .socials a i{
-    gap: 10vw;
+  .socials a{
+    gap: 4vw;
     text-decoration: none; 
     color: #000;
   }
