@@ -9,6 +9,42 @@
 _______________________________________________________*/
 
 /*---------- General Style ------------*/
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #0a0a0b;
+    --heading-color: #818cab;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+
+    /*other styles*/
+    .....
+}
+
+h1 {
+    color: var(--secondary-color);
+
+    /*other styles*/
+    .....
+}
+
+a {
+    color: var(--primary-color);
+
+    /*other styles*/
+    .....
+}
 
 * {
     box-sizing: border-box;
