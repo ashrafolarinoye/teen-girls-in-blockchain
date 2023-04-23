@@ -42,13 +42,12 @@ _______________________________________________________*/
     p {
         color: var(--primary-color);
     }
-    .rightconts h6{
+    .commuitydesc p{
         color: var(--primary-color);
+      } 
+    .socials i{
+        color: white;
     }
-    .commuity-desc p{
-        color: var(--primary-color);
-      }
-    
 }
 
 
@@ -2695,3 +2694,10 @@ footer.bg-pattern {
     padding: 0px 50px 50px; 
     font-weight: 500;
   }
+  .testimonydesc p{
+    text-align: center; 
+    padding: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
