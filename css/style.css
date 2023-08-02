@@ -355,7 +355,7 @@ h6 {
         position: relative;
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
-        top: 1vh;
+        top: 1vw;
 }
 
 .btn:hover {
